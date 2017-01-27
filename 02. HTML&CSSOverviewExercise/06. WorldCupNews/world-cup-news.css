@@ -1,0 +1,30 @@
+#wrapper {
+    width: 700px;
+    height: 730px;
+    border: 1px solid #000000;
+    margin: 0 auto;
+    background-color: #a6e1ec;
+}
+
+img {
+    width: 200px;
+    margin-right: 10px;
+    vertical-align: middle;
+}
+
+.text {
+    color: #2ea620;
+}
+
+li {
+    list-style: none;
+    width: 540px;
+    padding: 10px;
+    margin-bottom: 5px;
+    font-size: 14px;
+    border: 1px solid black;
+}
+
+#wrapper * {
+    margin-left: 10px;
+}

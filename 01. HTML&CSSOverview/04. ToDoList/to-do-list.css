@@ -1,0 +1,12 @@
+.my-list {
+    background-color: #f7f381;
+    width: 20%;
+    padding: 15px;
+    box-shadow: 0 0 10px 2px #333333;
+    border: 1px solid black;
+    font-size: 18px;
+}
+
+p {
+    text-align: center;
+}
