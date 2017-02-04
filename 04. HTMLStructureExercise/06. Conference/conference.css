@@ -1,0 +1,195 @@
+/* latin-ext */
+@font-face {
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 300;
+    src: local('Lato Light'), local('Lato-Light'), url(https://fonts.gstatic.com/s/lato/v11/dPJ5r9gl3kK6ijoeP1IRsvY6323mHUZFJMgTvxaG2iE.woff2) format('woff2');
+    unicode-range: U+0100-024F, U+1E00-1EFF, U+20A0-20AB, U+20AD-20CF, U+2C60-2C7F, U+A720-A7FF;
+}
+/* latin */
+@font-face {
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 300;
+    src: local('Lato Light'), local('Lato-Light'), url(https://fonts.gstatic.com/s/lato/v11/EsvMC5un3kjyUhB9ZEPPwg.woff2) format('woff2');
+    unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2212, U+2215;
+}
+/* latin-ext */
+@font-face {
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 400;
+    src: local('Lato Regular'), local('Lato-Regular'), url(https://fonts.gstatic.com/s/lato/v11/UyBMtLsHKBKXelqf4x7VRQ.woff2) format('woff2');
+    unicode-range: U+0100-024F, U+1E00-1EFF, U+20A0-20AB, U+20AD-20CF, U+2C60-2C7F, U+A720-A7FF;
+}
+/* latin */
+@font-face {
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 400;
+    src: local('Lato Regular'), local('Lato-Regular'), url(https://fonts.gstatic.com/s/lato/v11/1YwB1sO8YE1Lyjf12WNiUA.woff2) format('woff2');
+    unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2212, U+2215;
+}
+/* latin-ext */
+@font-face {
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 900;
+    src: local('Lato Black'), local('Lato-Black'), url(https://fonts.gstatic.com/s/lato/v11/R4a6fty3waPci7C44H8AjvY6323mHUZFJMgTvxaG2iE.woff2) format('woff2');
+    unicode-range: U+0100-024F, U+1E00-1EFF, U+20A0-20AB, U+20AD-20CF, U+2C60-2C7F, U+A720-A7FF;
+}
+/* latin */
+@font-face {
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 900;
+    src: local('Lato Black'), local('Lato-Black'), url(https://fonts.gstatic.com/s/lato/v11/tI4j516nok_GrVf4dhunkg.woff2) format('woff2');
+    unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2212, U+2215;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font: 300 16px/22px "Lato", sans-serif;
+    text-align: center;
+}
+
+header {
+    background-color: #293F50;
+    height: 350px;
+    text-align: center;
+}
+
+nav ul {
+    padding: 0;
+    height: 40px;
+    line-height: 30px;
+    text-align: left;
+}
+
+nav ul li {
+    width: 60px;
+    margin: 0 5px;
+    padding: 5px 0;
+    cursor: pointer;
+    text-align: center;
+    display: inline-block;
+}
+
+nav ul li a {
+    font-size: 12px;
+    text-decoration: none;
+    color: #647562;
+    text-transform: uppercase;
+    font-weight: 400;
+}
+
+header h1 {
+    color: #c9e1d3;
+    text-align: center;
+    margin: 50px 0;
+    font-weight: lighter;
+    text-transform: uppercase;
+}
+header h2 {
+    color: #518880;
+    text-align: center;
+    padding: 5px;
+    font-weight: lighter;
+    font-size: 26px;
+    margin-bottom: 5px;
+}
+
+header p:first-of-type {
+    font-size: 12px;
+    float: right;
+    color: #647562;
+    text-transform: uppercase;
+    padding: 5px 15px;
+    font-weight: 400;
+}
+
+header p:nth-child(5) {
+    color: #f1ffff;
+    text-align: center;
+    margin-bottom: 35px;
+    font-size: 18px;
+}
+
+#button {
+    color: #ffffff;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 12px;
+    border: 1px solid #ffffff;
+    padding: 15px 30px;
+    border-radius: 5px;
+}
+
+#button:hover {
+    background-color: #ffffff;
+    color: #64889f;
+}
+
+span {
+    display: inline-block;
+    margin-top: 10px;
+}
+
+section {
+    display:inline-block;
+    width: 300px;
+    text-align: left;
+    margin: 30px 15px;
+}
+
+section h5 {
+    color: #a9b2b9;
+    text-transform: uppercase;
+    font-weight: 400;
+    margin-bottom: 15px;
+}
+
+section img {
+    width: 300px;
+    height: 200px;
+    border-radius: 5px;
+    margin-bottom: 15px;
+}
+
+section h3 {
+    margin-bottom: 15px;
+    color: #7c8b80;
+    font-weight: 300;
+}
+
+section p {
+    color: #8f8b88;
+}
+
+footer {
+    background-color: #293F50;
+    height: 50px;
+    padding: 70px 180px 10px 180px;
+
+}
+
+footer p {
+    text-align: left;
+    color: #ffffff;
+    font-size: 24px;
+    font-weight: lighter;
+    float: left;
+}
+
+footer nav ul {
+    text-align: right;
+}
+
+footer nav ul li a {
+    color: #ffffff;
+    font-weight: lighter;
+}
