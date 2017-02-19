@@ -1,0 +1,35 @@
+main {
+    width: 35%;
+}
+
+div {
+    background: #6bf;
+    padding: 20px;
+    width: 130px;
+    text-align: center;
+    border-radius: 10px;
+    font-size: 18px;
+}
+
+.left {
+    float: left;
+    margin: 0 20px 0 0;
+}
+
+.right {
+    float: right;
+    margin: 0 0 0 20px;
+}
+
+.center {
+    margin: 0 auto;
+}
+
+p {
+    font-size: 22px;
+    text-align: justify;
+}
+
+.cleared {
+    clear: both;
+}

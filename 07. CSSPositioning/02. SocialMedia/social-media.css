@@ -1,0 +1,72 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background: #292929;
+}
+
+footer {
+    color: #fff;
+    width: 100%;
+    display: inline-block;
+    font-size: 16px;
+}
+
+footer section {
+    float: left;
+    margin: 30px 20px;
+}
+
+footer section h2 {
+    text-transform: uppercase;
+    font-size: 1.3rem;
+    margin-bottom: 15px;
+}
+
+footer section ul li {
+    list-style: none;
+    color: #BEB093;
+    text-transform: capitalize;
+    font-size: 1.1rem;
+}
+
+footer section:last-of-type ul li {
+    width: 70px;
+    height: 58px;
+    background: url("./images/social.jpg");
+    display: inline-block;
+}
+
+footer section:last-of-type ul li.linkedin {
+    background-position: 642px 126px;
+}
+
+footer section:last-of-type ul li.youtube {
+    background-position: 325px 126px;
+}
+
+footer section:last-of-type ul li.twitter {
+    background-position: 772px 126px;
+}
+
+.facebook, .twitter, .linkedin, .youtube {
+    cursor: pointer;
+}
+
+footer section:last-of-type ul li.facebook:hover {
+    background-position: 0 60px;
+}
+
+footer section:last-of-type ul li.linkedin:hover {
+    background-position: 642px 63px;
+}
+
+footer section:last-of-type ul li.youtube:hover {
+    background-position: 325px 63px;
+}
+
+footer section:last-of-type ul li.twitter:hover {
+    background-position: -66px 63px;
+}
