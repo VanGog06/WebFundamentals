@@ -1,0 +1,174 @@
+@import url('https://fonts.googleapis.com/css?family=Comfortaa:700|Open+Sans:400,700');
+@import url('https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css');
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    font-size: 14px;
+    font-family: "Open Sans", Arial, sans-serif;
+}
+
+aside {
+    width: 20%;
+    float: left;
+}
+
+aside h1 {
+    font-family: "Comfortaa", sans-serif;
+    font-size: 2rem;
+    text-align: center;
+    color: #3a3128;
+    margin: 30px 0;
+}
+
+aside figure {
+    text-align: center;
+}
+
+aside figure img {
+    width: 50%;
+    margin: 0 auto;
+    border-radius: 50%;
+}
+
+aside figure figcaption {
+    text-transform: uppercase;
+    color: #b7bfc2;
+    margin-top: 5px;
+}
+
+aside nav {
+    margin-top: 20px;
+}
+
+aside nav ul {
+    padding: 0;
+}
+
+aside nav ul li {
+    list-style-type: none;
+    text-transform: uppercase;
+    font-size: 0.8rem;
+    letter-spacing: 0.2rem;
+}
+
+aside nav ul li a {
+    color: #b7bfc2;
+    text-decoration: none;
+    padding: 5px 5px 5px 15px;
+    display: block;
+}
+
+aside nav ul li a:hover {
+    color: #3c4650;
+    cursor: pointer;
+    border-left: 3px solid #ff7739;
+}
+
+header h1 {
+    color: #3c4846;
+    font-size: 2rem;
+    font-weight: 400;
+    margin: 40px 30px;
+    display: inline-block;
+}
+
+header h1 span {
+    color: #91a5b0;
+}
+
+header button {
+    float: right;
+    margin: 40px 80px 0 0;
+    padding: 10px 15px;
+    border-radius: 20px;
+    text-transform: uppercase;
+    background-color: #ff7739;
+    color: #ffddc7;
+    border: 2px solid #cb886b;
+}
+
+header button:hover {
+    border: 2px solid #ff7739;
+    color: #ff7739;
+    background: none;
+    cursor: pointer;
+}
+
+main, header {
+    width: 80%;
+    float: left;
+    background-color: #f4f5f7;
+}
+
+main h5 {
+    color: #2e4b5d;
+    text-transform: capitalize;
+    font-size: 0.8rem;
+    margin: 15px 20px;
+    clear: left;
+}
+
+main p.address {
+    color: #221715;
+    margin: 15px 20px;
+    text-transform: uppercase;
+    clear: left;
+}
+
+main section {
+    width: 28%;
+    float: left;
+    margin: 20px;
+    box-shadow: 8px 6px 17px -1px rgba(0,0,0,0.26);
+    background: #fff;
+    display: inline-block
+}
+
+main section img {
+    width: 100%;
+    margin-top: 40px;
+}
+
+main section div {
+    display: inline-block;
+    padding: 10px 20px;
+    border-radius: 20px;
+    color: #fff;
+    text-transform: uppercase;
+    font-size: 0.9rem;
+    position: relative;
+    bottom: 160px;
+    right: 15px;
+}
+
+main section div.rented {
+    background-color: #b8c5cd;
+}
+
+main section div.listed {
+    background-color: #68bb69;
+}
+
+main section div.draft {
+    background-color: #91a5ae;
+}
+
+main section p {
+    text-transform: capitalize;
+    position: relative;
+    bottom: 10px;
+    margin-left: 20px;
+    color: #73818a;
+}
+
+main section p:first-of-type {
+    margin-bottom: 5px;
+}
+
+main section:first-of-type p {
+    color: #d9dadc;
+}

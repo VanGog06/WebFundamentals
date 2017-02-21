@@ -1,0 +1,40 @@
+body {
+    width: 610px;
+    margin: 20px auto;
+    font-family: Verdana, Arial, Helvetica, sans-serif;
+    color: #A192B0;
+}
+
+article {
+    width: 280px;
+    float: left;
+    display: inline-block;
+    box-shadow: 8px 6px 17px -1px rgba(0,0,0,0.26);
+    margin: 10px;
+    border: 2px solid #ccc;
+}
+
+article a {
+    font-size: 13px;
+    text-decoration: none;
+    color: #000;
+    font-weight: 600;
+}
+
+article a:hover {
+    text-decoration: underline;
+}
+
+article time {
+    font-size: 10px;
+    display: block;
+}
+
+article img {
+    display: inline-block;
+    float: left;
+}
+
+article p {
+    font-size: 13px;
+}

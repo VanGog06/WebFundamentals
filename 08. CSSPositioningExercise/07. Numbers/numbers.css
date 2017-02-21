@@ -1,0 +1,65 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+}
+
+main {
+    width: 800px;
+    text-align: center;
+}
+
+main article {
+    width: 20%;
+    display: inline-block;
+    background: #eee;
+    height: 230px;
+    margin: 0 10px;
+    border-radius: 10px;
+}
+
+main header h1 {
+    font-size: 18px;
+    text-align: center;
+    color: #9372da;
+    text-transform: capitalize;
+    background-color: #dddddd;
+    width: 90%;
+    border-radius: 20px;
+    margin: 30px auto;
+    padding: 15px;
+}
+
+main article div {
+    padding: 50px;
+    background-color: #9470dc;
+    border-radius: 50%;
+    width: 25%;
+    margin: 15px auto;
+    color: #fff;
+    font-size: 1.6rem;
+}
+
+main article div:hover {
+    color: #9372da;
+    background: #fff;
+    cursor: pointer;
+}
+
+main article p {
+    color: #adb8ce;
+}
+
+main article button {
+    font-size: 14px;
+    text-transform: capitalize;
+    padding: 7px 40px;
+    border-radius: 10px;
+    border: none;
+    margin-top: 5px;
+    color: #646368;
+}
+
+main article button:hover {
+    cursor: pointer;
+    background: #fff;
+}

@@ -1,0 +1,32 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans');
+
+body {
+    font-family: "Open Sans", Helvetica, sans-serif;
+    font-weight: bolder;
+    text-align: center;
+    color: #7c8084;
+    background-color: #f0f0e8;
+}
+
+header h1 {
+    font-size: 56px;
+    color: #009288;
+}
+
+main article {
+    width: 220px;
+    display: inline-block;
+    margin: 5px;
+    box-sizing: border-box;
+    padding: 5px;
+}
+
+main article:hover {
+    background-color: #f6f6f5;
+    border-left: 10px solid #009288;
+    cursor: pointer;
+}
+
+main article p {
+    font-size: 16px;
+}

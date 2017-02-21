@@ -1,0 +1,69 @@
+@import url('https://fonts.googleapis.com/css?family=Lemon');
+
+body {
+    background-color: #602d75;
+    font-family: Lemon, Arial, sans-serif;
+}
+
+main {
+    width: 900px;
+    text-align: center;
+    margin: 40px auto;
+    background-color: #ffae32;
+    border-radius: 20px;
+    padding: 10px;
+}
+
+main article {
+    width: 220px;
+    display: inline-block;
+    background-color: #5f2056;
+    border-top-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    margin: 0 20px 20px 20px;
+}
+
+main h1 {
+    font-size: 32px;
+    color: #000;
+    text-transform: capitalize;
+}
+
+main article h2 {
+    color: #fff;
+    margin-bottom: 5px;
+}
+
+main article h2 + p {
+    color: #ffb354;
+    text-align: center;
+    margin: 5px 0 10px 0;
+}
+
+main article p {
+    font-size: 15px;
+    color: #fff;
+    margin: 0 0 0 20px;
+    text-align: left;
+}
+
+main article p:last-of-type {
+    margin-bottom: 10px;
+}
+
+main article img {
+    width: 90%;
+    border-radius: 50%;
+    border: 4px solid #826b73;
+}
+
+main article button {
+    font-size: 15px;
+    padding: 5px 50px;
+    background: #fff;
+    border-radius: 20px;
+    border: 2px solid #ddd;
+    color: #954bff;
+    font-family: Lemon, Arial, sans-serif;
+    margin-bottom: 15px;
+}
