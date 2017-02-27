@@ -1,0 +1,422 @@
+@import "https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css";
+@import 'https://fonts.googleapis.com/css?family=Montserrat';
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Montserrat, sans-serif;
+}
+
+.site-header {
+    background: url("./images/Layer-759_02.jpg") no-repeat;
+    background-size: cover;
+    padding-top: 20px;
+    height: 700px;
+}
+
+.top-navigation {
+    width: 70%;
+    margin: 0 auto;
+    background-color: #ba925e;
+}
+
+.top-navigation ul {
+    list-style: none;
+    width: 100%;
+    padding: 20px 0;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+}
+
+.top-navigation ul li {
+    display: inline-block;
+}
+
+.top-navigation ul li a {
+    text-decoration: none;
+    color: #efd7bb;
+    font-size: 20px;
+}
+
+.slider {
+    margin-top: 90px;
+    text-align: center;
+}
+
+.slider h1 {
+    text-transform: uppercase;
+    font-size: 48px;
+    color: #fff;
+    text-align: center;
+    font-weight: bolder;
+}
+
+.slider h3 {
+    color: #fff;
+    font-weight: 400;
+    margin-top: 60px;
+    margin-bottom: 45px;
+}
+
+.slider .slider-button {
+    text-decoration: none;
+    color: #fff;
+    background-color: #080822;
+    padding: 15px;
+    text-transform: uppercase;
+    border-radius: 5px;
+    font-size: 12px;
+}
+
+.slider .slider-button::after {
+    content: " >";
+    color: #bf9984;
+    font-size: 16px;
+}
+
+.slider .slider-button:hover {
+    background-color: #bb945d;
+    color: #000;
+    cursor: pointer;
+}
+
+.slider .slider-button:hover::after {
+    color: #000;
+}
+
+main {
+    text-align: center;
+    border: 1px solid #b6b4b7;
+}
+
+.industries {
+    margin-bottom: 50px;
+}
+
+.industries h1 {
+    text-transform: capitalize;
+    margin-top: 30px;
+    font-size: 40px;
+    font-weight: bold;
+    margin-bottom: 40px;
+}
+
+.industries article {
+    display: inline-block;
+    width: 400px;
+    margin: 20px;
+    position: relative;
+}
+
+.industries article .icon {
+    position: absolute;
+    font-size: 24px;
+    color: #fff;
+    background-color: #000;
+    padding: 5px;
+    border-radius: 50%;
+    top: -15px;
+    left: -15px;
+}
+
+.industries article:first-of-type .icon {
+    padding: 6px 12px;
+}
+
+.industries article:nth-child(3) .icon {
+    padding: 6px 8px;
+    left: -17px;
+}
+
+.industries article:nth-child(4) .icon {
+    padding: 6px 10px;
+}
+
+.industries article:nth-child(5) .icon {
+    padding: 6px 8px;
+}
+
+.industries article:nth-child(6) .icon {
+    padding: 6px 14px;
+    left: -17px;
+}
+
+.industries article:nth-child(7) .icon {
+    padding: 6px 10px;
+    left: -17px;
+}
+
+.industries article h3, .industries article p {
+    padding-left: 50px;
+}
+
+.industries article h3 {
+    font-size: 16px;
+    text-align: left;
+}
+
+.industries article p {
+    text-align: justify;
+    margin-top: 10px;
+}
+
+.mission {
+    height: 130px;
+    position: relative;
+    z-index: 1;
+}
+
+.mission .mission-background {
+    position: absolute;
+    z-index: -1;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: url("./images/steel-bg.jpg") center;
+    opacity: .4;
+    width: 100%;
+    height: 100%;
+}
+
+.mission h1 {
+    padding-top: 30px;
+}
+
+.mission h1 .accent {
+    color: #c8a376;
+}
+
+.benefits {
+    position: relative;
+    z-index: 1;
+    color: #fff;
+    padding-top: 50px;
+    height: auto;
+}
+
+.benefits .benefits-background {
+    background:
+            linear-gradient(
+            rgba(0, 0, 0, 0.4),
+            rgba(0, 0, 0, 0.4)),
+            url("./images/background-choose-us.jpg") no-repeat center;
+    background-size: cover;
+    position: absolute;
+    z-index: -1;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    width: 100%;
+    height: auto;
+}
+
+.benefits > h1 {
+    font-size: 38px;
+    margin-bottom: 20px;
+}
+
+.benefits article {
+    display: inline-block;
+    width: 400px;
+    margin: 10px 10px 40px 10px;
+    border: 2px solid #b89e85;
+    height: 200px;
+    padding: 40px 45px;
+    box-sizing: border-box;
+}
+
+.benefits article:hover {
+    color: #000;
+    background-color: #fff;
+    cursor: pointer;
+}
+
+.benefits article h1 {
+    font-size: 18px;
+    margin-bottom: 15px;
+}
+
+.benefits article p {
+    font-size: 14px;
+    text-align: left;
+}
+
+.testimonials {
+    background: url("./images/consulting-woman.jpg");
+    height: 600px;
+}
+
+.testimonials .testimonial {
+    width: 30%;
+    float: right;
+    margin-top: 80px;
+    margin-right: 30px;
+    padding: 20px;
+    max-height: 470px;
+    min-width: 30%;
+    position: relative;
+    z-index: 1;
+}
+
+.testimonials .testimonials-background {
+    position: absolute;
+    z-index: -1;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: #f1edea;
+    opacity: 0.5;
+    width: 87%;
+    height: auto;
+    padding: 100px 40px;
+    float: right;
+}
+
+.testimonials .testimonial .text {
+    font-size: 14px;
+    text-align: justify;
+    margin-bottom: 20px;
+}
+
+.testimonials .testimonial .text::before, .testimonials .testimonial .text::after {
+    content: open-quote;
+    color: #c79d63;
+    font-size: 32px;
+}
+
+.testimonials .testimonial .author {
+    background-color: #080820;
+    color: #fff;
+    height: 330px;
+}
+
+.testimonials .testimonial .author .position {
+    color: #767585;
+    float: right;
+    font-size: 12px;
+    margin-bottom: 10px;
+    margin-top: 5px;
+}
+
+.testimonials .testimonial .author .name {
+    clear: both;
+    text-align: left;
+    margin-left: 10px;
+    font-size: 20px;
+}
+
+.partners {
+    height: 90px;
+    line-height: 90px;
+}
+
+.partners ul {
+    display: flex;
+    justify-content: center;
+    list-style-type: none;
+}
+
+.partners img {
+    width: 135px;
+    height: 60px;
+    margin-top: 15px;
+}
+
+footer {
+    background-color: #080820;
+    display: inline-block;
+    width: 100%;
+}
+
+.consulting {
+    float: left;
+}
+
+.consulting h1 {
+    color: #fff;
+    margin-left: 80px;
+    padding-top: 30px;
+    font-size: 18px;
+}
+
+.consulting p {
+    color: #fff;
+    font-size: 14px;
+    margin-left: 100px;
+    margin-top: 10px;
+}
+
+.consulting a {
+    padding: 8px 10px;
+    background-color: #83838d;
+    display: inline-block;
+    border-radius: 50%;
+    margin-top: 40px;
+    margin-right: 10px;
+}
+
+.consulting a:first-of-type {
+    margin-left: 130px;
+    padding: 8px 14px;
+}
+
+.consulting i {
+    color: #090a26;
+    font-size: 20px;
+}
+
+.extra-links h1 {
+    color: #fff;
+    font-size: 18px;
+    margin-top: 20px;
+}
+
+.extra-links {
+    display: inline-block;
+    margin-left: 200px;
+}
+
+.extra-links .first-column, .extra-links .second-column {
+    float: left;
+    margin-right: 20px;
+    margin-top: 20px;
+}
+
+.extra-links a{
+    display: block;
+    color: #9b8b8e;
+    text-decoration: none;
+    margin: 10px 0;
+}
+
+.instagram-widget {
+    float: right;
+    margin-right: 100px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 310px;
+}
+
+.instagram-widget h1 {
+    color: #fff;
+    font-size: 18px;
+    margin-top: 20px;
+    margin-bottom: 30px;
+}
+
+.instagram-widget li {
+    display: inline-block;
+}
+
+.instagram-widget img {
+    width: 100px;
+    height: 100px;
+}
