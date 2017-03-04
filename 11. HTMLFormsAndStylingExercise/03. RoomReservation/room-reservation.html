@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Room Reservation</title>
+    <link rel="stylesheet" href="room-reservation.css">
+</head>
+<body>
+<header>
+    <h1 class="title">Room Reservation</h1>
+</header>
+
+<main>
+    <section class="first-section">
+        <section class="basic-information">
+            <h2 class="basic-information-title">Basic Information</h2>
+            <p>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent at nibh varius odio sollicitudin blandit
+                nec eu elit. Suspendisse ac risus nunc, quis elementum lorem. Pellentesque vehicula egestas eros nec commodo.
+            </p>
+        </section>
+
+        <section class="search">
+            <label for="search-input">Search</label>
+            <span class="search-icon"></span>
+            <input type="text" id="search-input" />
+        </section>
+    </section>
+
+    <section class="second-section">
+        <section class="personal-details">
+            <h2>Personal Details</h2>
+
+            <form action="#">
+                <input type="text" placeholder="First Name" />
+                <input type="text" placeholder="Last Name" />
+                <input type="email" placeholder="Email" />
+            </form>
+        </section>
+
+        <section class="reservation">
+            <h2>Request a reservation</h2>
+
+            <form action="#">
+                <label for="room">
+                    Select a Room
+                    <select name="room" id="room">
+                        <option value="1">Room 1</option>
+                        <option value="2">Room 2</option>
+                        <option value="3">Room 3</option>
+                        <option value="4">Room 4</option>
+                    </select>
+                </label>
+
+                <label for="number-of-rooms">
+                    Number of Rooms
+                    <input type="number" value="1" id="number-of-rooms" />
+                </label>
+
+                <label for="check-in">
+                    Check-In:
+                    <input type="datetime-local" id="check-in" />
+                </label>
+
+                <label for="check-out">
+                    Check-Out:
+                    <input type="datetime-local" id="check-out" />
+                </label>
+            </form>
+        </section>
+    </section>
+</main>
+
+<footer>
+    <button>Book Now</button>
+</footer>
+</body>
+</html>

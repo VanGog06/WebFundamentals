@@ -1,0 +1,131 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto');
+
+body {
+    font-family: 'Roboto', sans-serif;
+    background: #eee;
+    color: #1E1917;
+}
+
+section {
+    width: 800px;
+    margin: 0 auto;
+}
+
+header {
+    background-color: #fff;
+    color: #244f7c;
+    border-top: 8px solid #324e5a;
+    border-right: 8px solid #324e5a;
+    height: 80px;
+    line-height: 20px;
+}
+
+header h1 {
+    font-size: 40px;
+    padding-left: 40px;
+}
+
+form {
+    margin-top: 30px;
+    width: 70%;
+    margin-left: 5%;
+    float: left;
+}
+
+form span:first-of-type {
+    margin-right: 25%;
+}
+
+label {
+    font-size: 14px;
+    font-weight: 500;
+    display: block;
+    margin: 5px;
+}
+
+form label:last-of-type {
+    margin-top: 30px;
+}
+
+input {
+    margin: 5px;
+    padding: 10px;
+}
+
+input:not([type="checkbox"]):not([type="radio"]) {
+    width: 100%;
+    border-top: 3px solid #324e5a;
+    border-left: 3px solid #324e5a;
+}
+
+input[type="checkbox"] {
+    margin: 10px 5px;
+}
+
+button {
+    font-size: 15px;
+    font-weight: 700;
+    padding: 5px 80px;
+}
+
+a {
+    color: #136F63;
+    font-size: 15px;
+    display: block;
+    margin: 10px 0 0 5px;
+}
+.groups {
+    background-color: #fff;
+    width: 100%;
+    padding: 10px;
+    margin: 5px;
+    border-top: 3px solid #324e5a;
+    border-left: 3px solid #324e5a;
+}
+
+.groups span {
+    display: block;
+}
+
+.cancel {
+    color: #e15757;
+    background: none;
+    border: none;
+    border-bottom: 2px solid #ff5428;
+    border-right: 2px solid #ff5428;
+    outline: none;
+}
+
+.cancel:hover {
+    color: #fff;
+    background-color: #ff5428;
+    cursor: pointer;
+}
+
+.save {
+    color: #2e625e;
+    background: none;
+    border: none;
+    border-bottom: 2px solid #136f64;
+    border-right: 2px solid #136f64;
+    outline: none;
+    margin-left: 40px;
+}
+
+.save:hover {
+    color: #fff;
+    background-color: #136f64;
+    cursor: pointer;
+}
+
+.buttons {
+    width: 90%;
+    text-align: left;
+    margin-left: 100px;
+    margin-top: 10px;
+}
+
+.deactivate {
+    float: right;
+    margin-top: 60px;
+}

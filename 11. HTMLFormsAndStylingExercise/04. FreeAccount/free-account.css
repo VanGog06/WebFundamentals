@@ -1,0 +1,143 @@
+@import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css');
+
+body {
+    font-family: Tahoma, Helvetica, sans-serif;
+    background-color: #ccc;
+}
+
+body > section {
+    width: 800px;
+    background-color: #fff;
+    margin: 0 auto;
+}
+
+header {
+    width: 90%;
+    margin: 0 auto;
+    border-bottom: 1px solid #cecece;
+}
+
+header h1 {
+    font-size: 24px;
+    text-align: center;
+    padding-top: 50px;
+}
+
+header p {
+    font-size: 13px;
+    text-align: center;
+}
+
+.new-account,
+.login {
+    width: 49%;
+    display: inline-block;
+    vertical-align: top;
+    box-sizing: border-box;
+    padding-left: 50px;
+}
+
+.login {
+    padding-left: 40px;
+}
+
+input:not([type="checkbox"]),
+button {
+    display: block;
+}
+
+input[type="checkbox"] {
+    float: left;
+    width: 20px;
+    height: 20px;
+    margin: 0 5px 0 15px;
+}
+
+input:not([type="checkbox"]) {
+    width: 75%;
+}
+
+input {
+    padding: 8px;
+    margin: 15px;
+    border-radius: 5px;
+    border: 1px solid #cfcfcf;
+    outline: none;
+}
+
+h2 {
+    font-size: 18px;
+    padding-left: 15px;
+}
+
+form label {
+    font-size: 12px;
+    color: #9a9695;
+}
+
+form label span {
+    display: block;
+}
+
+form a {
+    text-decoration: none;
+    font-size: 12px;
+    color: #d7788c;
+    padding-left: 18px;
+}
+
+form a:hover {
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+form button {
+    margin-left: 15px;
+    margin-top: 20px;
+    color: #000;
+    background-color: #f0f0f0;
+    padding: 10px 30px;
+    border-radius: 10px;
+    border: 1px solid #d0d0d0;
+    font-weight: bold;
+}
+
+form button:hover {
+    background-color: #afdf67;
+    cursor: pointer;
+}
+
+form:first-of-type button {
+    margin-bottom: 40px;
+}
+
+.check-mark,
+.deny-mark {
+    position: relative;
+}
+
+.check-mark::after {
+    font-family: 'FontAwesome', sans-serif;
+    content: '\f00c';
+    position: absolute;
+    top: 4px;
+    right: 60px;
+    font-size: 20px;
+    background-color: #00ff01;
+    color: #fff;
+    padding: 2px;
+    border: 1px solid #38d83a;
+}
+
+.deny-mark::after {
+    font-family: 'FontAwesome', sans-serif;
+    content: '\f00d';
+    position: absolute;
+    top: 3px;
+    right: 60px;
+    font-size: 20px;
+    background-color: #fe0500;
+    color: #fff;
+    padding: 3px 4px;
+    border: 1px solid #be201d;
+}
