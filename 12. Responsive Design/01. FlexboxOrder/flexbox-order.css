@@ -1,0 +1,74 @@
+/*TODO write CSS here*/
+body {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    font-weight: bold;
+    text-align: center;
+    padding: 30px;
+}
+
+body > * {
+    padding: 10px;
+    flex-basis: 100%;
+    flex-grow: 1;
+}
+
+.header {
+    background: tomato;
+}
+
+.footer {
+    background: lightgreen;
+    order: 4;
+}
+
+.main-article {
+    text-align: left;
+    background: deepskyblue;
+    order: 2;
+    flex-basis: 200px;
+}
+
+.aside-1 {
+    background: gold;
+    order: 1;
+    flex-grow: 0;
+    flex-basis: 200px;
+}
+
+.aside-2 {
+    background: hotpink;
+    order: 3;
+    flex-grow: 0;
+    flex-basis: 200px;
+}
+
+/*TODO: @media all and  (max-width: 800px) {*/
+@media all and (max-width: 800px) {
+    .main-article {
+        order: 1;
+        flex-basis: 100%;
+    }
+
+    .aside-1 {
+        order: 2;
+        flex-basis: 200px;
+        flex-grow: 1;
+    }
+
+    .aside-2 {
+        order: 3;
+        flex-basis: 200px;
+        flex-grow: 1;
+    }
+}
+/*}*/
+
+/*TODO: @media all and (min-width: 600px) {*/
+@media all and (max-width: 600px) {
+    .aside-1, .aside-2 {
+        flex-basis: 100%;
+    }
+}
+/*}*/
