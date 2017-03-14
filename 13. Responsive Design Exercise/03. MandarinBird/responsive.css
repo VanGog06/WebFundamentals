@@ -1,0 +1,61 @@
+@media screen and (max-width: 730px) {
+    html {
+        height: auto;
+    }
+
+    main {
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    section, aside {
+        flex-basis: 100%;
+        font-size: 1.5em;
+    }
+
+    section {
+        order: 1;
+    }
+
+    aside {
+        order: 2;
+    }
+
+    footer {
+        text-align: center;
+    }
+}
+
+@media screen and (max-width: 500px) {
+    main section:first-of-type {
+        margin-right: 30px;
+    }
+
+    header nav > ul li {
+        display: block;
+        width: 100%;
+    }
+
+    main section > div {
+        height: auto;
+    }
+
+    main section > div > div, main section > div > article {
+        display: block;
+        width: 100%;
+        text-align: center;
+    }
+
+    main section > div > div {
+        background: #bacd8b;
+    }
+
+    main > section > div > article > p {
+        text-align: justify;
+        margin-right: 30px;
+    }
+
+    main section:first-of-type div:last-of-type {
+        margin: 0;
+    }
+}

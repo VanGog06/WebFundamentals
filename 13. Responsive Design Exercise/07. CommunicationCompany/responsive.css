@@ -1,0 +1,109 @@
+@media screen and (max-width: 1200px) {
+    body {
+        font-size: 1.3em;
+    }
+
+    .wrapper {
+        width: 100%;
+        margin-left: 5%;
+        margin-right: 5%;
+        max-width: 90%;
+    }
+
+    .sponsorship {
+        width: 100%;
+    }
+
+    .content-wrap {
+        width: 100%;
+        flex-direction: column;
+    }
+
+    .content-wrap .module-text {
+        width: 100%;
+    }
+
+    .main-foot .wrapper {
+        flex-wrap: wrap;
+    }
+
+    .main-foot .wrapper address, .main-foot .wrapper nav {
+        flex-basis: 320px;
+        flex-grow: 1;
+    }
+}
+
+@media screen and (max-width: 700px) {
+    body {
+        font-size: 1.1em;
+    }
+
+    .hero-head {
+        background: #000 none;
+        min-height: 500px;
+    }
+    
+    .hero-head h1 {
+        width: 100%;
+        text-align: center;
+        font-size: 1.5em;
+        line-height: 40px;
+    }
+    
+    .hero-head .goal {
+        width: 100%;
+        max-width: 100%;
+        text-align: center;
+        margin-top: 20px;
+    }
+    
+    .content-wrap.two-col .col {
+        text-align: center;
+        margin: 0 2%;
+    }
+
+    .content.bordered .wrapper {
+        width: 100%;
+        max-width: 100%;
+        margin: 0;
+    }
+
+    .js-modal-open {
+        width: 95%;
+    }
+
+    .sponsorship {
+        padding-bottom: 80px;
+    }
+
+    .sponsorship .wrapper {
+        margin: 0 2%;
+        text-align: center;
+        max-width: 97%;
+    }
+
+    .button-list {
+        display: block;
+    }
+
+    .button-list li {
+        width: 95%;
+        margin-right: 0;
+    }
+
+    .button-list li a {
+        width: 100%;
+    }
+
+    .content.woodsmoke .large-text-link {
+        font-size: 1.2em;
+    }
+    
+    .main-foot {
+        text-align: center;
+    }
+    
+    .copyright {
+        width: 100%;
+    }
+}
