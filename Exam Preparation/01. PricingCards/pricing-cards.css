@@ -1,0 +1,74 @@
+@import url("https://fonts.googleapis.com/css?family=Open+Sans:400,900");
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+    background: #ebf0f3;
+}
+
+ul {
+    list-style-type: none;
+    text-align: center;
+    margin-top: 80px;
+}
+
+li {
+    display: inline-block;
+    width: 25%;
+    vertical-align: top;
+    background: #fff;
+    height: 450px;
+    margin-right: 10px;
+    border-radius: 20px;
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, .1);
+}
+.card-img {
+    width: 50px;
+    margin-top: 20px;
+}
+
+.card-title {
+    font-weight: 900;
+    font-size: 22px;
+    text-transform: capitalize;
+}
+
+.card-description {
+    font-size: 14px;
+    margin-top: 50px;
+    padding: 0 45px;
+}
+
+.card-price {
+    margin-top: 50px;
+    font-size: 28px;
+    color: #ff6f07;
+    font-weight: 400;
+}
+
+li:first-of-type .card-price {
+    color: #7c7c7c;
+}
+
+.start {
+    font-size: 16px;
+    margin-top: 50px;
+    border: none;
+    outline: none;
+    padding: 10px 45px;
+    background: #fb7f41;
+    color: #fff;
+    border-radius: 20px;
+    text-transform: uppercase;
+}
+
+li:first-of-type .start {
+    background: #94dce8;
+}
+
+.start:hover {
+    cursor: pointer;
+    background: #ff4d02;
+}
