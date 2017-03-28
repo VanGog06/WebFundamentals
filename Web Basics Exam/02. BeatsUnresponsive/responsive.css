@@ -1,0 +1,74 @@
+@media screen and (max-width: 640px) {
+    .nav-primary {
+        flex-direction: column;
+        align-content: center;
+    }
+    li {
+        text-align: center;
+        padding: 10px;
+    }
+
+    .solo {
+        padding: 4rem;
+        text-align: center;
+    }
+
+    .solo-title,
+    .solo-description {
+        text-align: center;
+    }
+
+    .solo-title {
+        font-size: 2em;
+        margin: 0;
+    }
+
+    .solo-description {
+        font-size: 1.2em;
+    }
+
+    .second-row {
+        flex-direction: column;
+    }
+
+    .mixr-left,
+    .urbeats-right {
+        padding-top: 0;
+        padding-bottom: 0;
+        width: 100%;
+        box-sizing: border-box;
+        background-position: left;
+        display: block;
+        text-align: center;
+    }
+
+    .sr-title {
+        margin-bottom: 35px;
+        font-size: 2em;
+    }
+
+    .sr-description {
+        margin-bottom: 40px;
+        font-size: 1.2em;
+    }
+
+    .sr-cta {
+        margin-bottom: 50px;
+        font-size: 1em;
+    }
+
+    .studio {
+        background-position: left;
+        text-align: center;
+    }
+
+    .studio p {
+        width: 75%;
+        margin: 48px auto 16px auto;
+    }
+
+    .product-img {
+        display: inline-block;
+        width: 49%;
+    }
+}

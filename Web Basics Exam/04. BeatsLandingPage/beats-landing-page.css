@@ -1,0 +1,230 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:400,900');
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    font-family: "Open Sans", sans-serif;
+}
+
+header {
+    text-align: center;
+}
+
+.menu {
+    list-style-type: none;
+}
+
+.menu li {
+    display: inline-block;
+    margin: 30px 80px 0 70px;
+}
+
+.menu a {
+    text-decoration: none;
+    color: #9d9d9d;
+    text-transform: uppercase;
+    font-weight: 900;
+    padding: 5px 0;
+}
+
+.menu a:hover {
+    color: #000;
+    border-bottom: 2px solid #d5d5d5;
+}
+
+.wireless {
+    background: url("./img/beats-landing-main.jpg") no-repeat right;
+    background-size: 45% 90%;
+    height: 650px;
+}
+
+.wireless-title {
+    padding-top: 200px;
+    font-size: 36px;
+    font-weight: 400;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+}
+
+.wireless-description {
+    margin-bottom: 30px;
+}
+
+.view-more {
+    border: none;
+    outline: none;
+    background: #ff0000;
+    color: #fff;
+    text-transform: uppercase;
+    padding: 15px 50px;
+    border-radius: 30px;
+}
+
+.wireless-title,
+.wireless-description {
+    width: 30%;
+}
+
+.wireless-title,
+.wireless-description,
+.view-more {
+    margin-left: 200px;
+}
+
+.powerbeats {
+    background: #fbfcff;
+}
+
+.powerbeats section {
+    display: inline-block;
+    width: 35%;
+    vertical-align: top;
+    box-sizing: border-box;
+    margin: 100px;
+}
+
+.powerbeats-title {
+    font-size: 70px;
+    text-transform: uppercase;
+    font-weight: 400;
+    padding-top: 30px;
+}
+
+.powerbeats-tags {
+    text-transform: uppercase;
+    font-size: 18px;
+    padding-left: 150px;
+    margin-bottom: 70px;
+}
+
+.powerbeats-tags span {
+    font-weight: 900;
+}
+
+.powerbeats-description {
+    font-size: 18px;
+    margin-bottom: 80px;
+}
+
+.powerbeats-price {
+    display: inline-block;
+    font-size: 40px;
+    font-weight: 900;
+    margin-right: 50px;
+}
+
+.buy-now {
+    padding: 15px 60px;
+    text-transform: uppercase;
+    font-weight: 400;
+    border: none;
+    outline: none;
+    background: #ff0000;
+    color: #fff;
+    border-radius: 30px;
+    position: relative;
+    top: -10px;
+}
+
+.free {
+    background: #575757;
+    text-align: center;
+    padding: 20px;
+}
+
+.free img {
+    width: 100px;
+}
+
+.free-description {
+    display: inline-block;
+    vertical-align: top;
+    padding: 30px 0 0 30px;
+    text-transform: uppercase;
+    font-weight: 400;
+    color: #ddd;
+}
+
+.free-description span {
+    font-weight: 900;
+    color: #fff;
+}
+
+.read-more {
+    display: block;
+    text-decoration: none;
+    color: #fff;
+    text-transform: uppercase;
+    padding: 5px 0;
+    border-bottom: 1px solid #fbfcff;
+    width: 13%;
+    font-weight: 900;
+    font-size: 28px;
+    margin: 30px auto 20px auto;
+}
+
+.beats-red {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.image {
+    position: relative;
+    top: -2px;
+}
+
+.beats-red section {
+    flex-basis: 100px;
+    flex-grow: 1;
+    vertical-align: top;
+    height: 781px;
+}
+
+.image img {
+    width: 100%;
+}
+
+.logo {
+    background: #dadada url('./img/beats-red.png') no-repeat 450px;
+}
+
+.logo-title {
+    font-size: 110px;
+    text-transform: uppercase;
+    color: #333333;
+    padding: 150px 0 0 70px;
+}
+
+.logo-title span {
+    display: block;
+}
+
+.logo-description {
+    padding-left: 75px;
+    font-size: 40px;
+    color: #333333;
+    font-weight: 400;
+}
+
+.logo-description span {
+    text-transform: uppercase;
+    color: #f00;
+    font-weight: 900;
+}
+
+.btn:hover {
+    background: #dc0202;
+    cursor: pointer;
+}
+
+footer {
+    height: 70px;
+    line-height: 70px;
+    font-size: 20px;
+    text-align: center;
+    color: #333333;
+}

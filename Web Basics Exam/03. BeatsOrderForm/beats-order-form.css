@@ -1,0 +1,113 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:400,900');
+@import url('https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css');
+
+body {
+    background: linear-gradient(to right, #2b444d, #5f666e);
+    font-family: 'Open Sans', sans-serif;
+    text-align: center;
+}
+
+section {
+    background: #fafafa;
+    width: 70%;
+    margin: 70px auto;
+    text-align: right;
+    display: inline-block;
+    position: relative;
+    border-radius: 5px;
+}
+
+.form {
+    float: right;
+    width: 38%;
+    text-align: left;
+}
+
+.form div {
+    position: relative;
+    width: 45%;
+    display: inline-block;
+    margin-bottom: 30px;
+}
+
+.margin-right {
+    margin-right: 35px;
+}
+
+.form div:first-of-type {
+    display: block;
+}
+
+form i {
+    position: absolute;
+    color: #575757;
+}
+
+.fa {
+    font-size: 22px;
+}
+
+h1 {
+    color: #adadad;
+    text-transform: uppercase;
+    font-weight: 900;
+    font-size: 36px;
+    margin-bottom: 0;
+}
+
+h2 {
+    margin-top: 5px;
+    color: #7a7a7a;
+    font-weight: 900;
+    font-size: 32px;
+    margin-bottom: 50px;
+}
+
+h1,
+h2,
+.form {
+    padding-right: 100px;
+}
+
+input:first-of-type,
+span,
+button {
+    display: block;
+}
+
+input {
+    background: none;
+    border: none;
+    outline: none;
+    border-bottom: 2px solid #898886;
+    text-transform: uppercase;
+    width: 100%;
+    font-size: 14px;
+    padding: 5px 5px 5px 40px;
+    box-sizing: border-box;
+    font-weight: 400;
+}
+
+button {
+    float: right;
+    margin: 50px 0 30px 0;
+    outline: none;
+    background: #535e66;
+    color: #fff;
+    border: none;
+    padding: 10px 30px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-size: 16px;
+    border-radius: 30px;
+}
+
+.background {
+    position: absolute;
+    top: -5px;
+    left: 50px;
+}
+
+.background img {
+    width: 86%;
+}
